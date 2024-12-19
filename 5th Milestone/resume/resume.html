@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resumeDiv">
+        <header>
+            <div>
+                <h1 class="white"><span id="resName"></span></h1>
+                <p class="white"><span id="resDesig"></span></p>
+            </div>
+            <img id="resImg"src="Profile.jpg" alt=""/>
+        </header>
+
+        <div class="content">
+            <aside>
+                <section class="contact">
+                    <h2>Contact Detail</h2>
+                    <p><strong>Phone</strong></p>
+                    <p><span id="resphone"></span></p>
+                    <br />
+                    <p><strong>Email</strong></p>
+                    <p><span id="resEmail"></span></p>
+                    <br />
+                    <p><strong>Address</strong></p>
+                    <p><span id="resAdd"></span></p>
+                </section>
+
+                <section class="education">
+                    <h2>Education</h2>
+                    <p><strong><span id="resdeg1"></span></strong></p>
+                    <p><span id="respass1"></span></p>
+                    <p><span id="resuni1"></p>
+                    <br />
+                    <p><strong><span id="resdeg2"></span></strong></p>
+                    <p><span id="respass2"></span></p>
+                    <p><span id="resuni2"></p>
+                    <br />
+                    <p><strong><span id="resdeg3"></span></strong></p>
+                    <p><span id="respass3"></span></p>
+                    <p><span id="resuni3"></p>
+                    <br />
+                </section>
+
+                <section class="skill">
+                    <h2>Expertise</h2>
+                    <ul>
+                        <li><span id="resskill1"></span></li>
+                        <li><span id="resskill2"></span></li>
+                        <li><span id="resskill3"></span></li>
+                        <li><span id="resskill4"></span></li>
+                        <li><span id="resskill5"></span></li>
+                    </ul>
+                    <br />
+                </section>
+
+                <section class="language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li><span id="reslang1"></span></li>
+                        <li><span id="reslang2"></span></li>
+                    </ul>
+                    <br />
+                </section>
+            </aside>
+
+            <main class="main-content">
+                <section id="experience" class="experience">
+                    <h2>Experience</h2>
+                    <div class="experience-details">
+                        <p><span id="resstyear"></span>-<span id="resendyear"></span></p>
+                        <P><strong><span id="rescompany"></span> | <span id="rescomaddress"></span></strong></P>
+                        <p><span id="resjobtitle"></span></p>
+                        <ul>
+                            <li><span id="resachievement1"></span></li>
+                            <li><span id="resachievement2"></span></li>
+                            <li><span id="resachievement3"></span></li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-details">
+                        <p>2015-2020</p>
+                        <P><strong>ABC company | Karachi</strong></P>
+                        <p>Abc Developer</p>
+                        <ul>
+                            <li>Developed new features</li>
+                            <li>Implemented new features</li>
+                            <li>Debugged existing code</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-details">
+                        <p>2010-2015</p>
+                        <P><strong>EFG company | Karachi</strong></P>
+                        <p>Abc Developer</p>
+                        <ul>
+                            <li>Developed new features</li>
+                            <li>Implemented new features</li>
+                            <li>Debugged existing code</li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="ref" class="refrence">
+                    <h2>Refrence</h2>
+                    <p>To be present upon request</p>
+                </section>
+            </main>
+        </div>
+    </div>
+    <div class="btnDiv">
+    
+        <button id="print_btn" class="btn">Print</button>
+        <button id="edit_btn" class="btn">Edit</button>
+        <a id ="anc" href=""><button id="share_btn" class="btn">Shareable Link</button></a>
+        <button id="copy_btn" class="btn">Copy Link Address</button>
+    </div>
+</body>
+
+<script src="resumeScript.js"></script>
+</html>
